@@ -10,6 +10,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
+    justify-content: space-between;
     text-align: center;
     padding: 10px;
 }
@@ -105,6 +106,13 @@ main {
 
 ul {
     line-height: 1.5; /* Выберите значение, которое соответствует вашим предпочтениям */
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        /* Ваши стили для мобильных устройств */
+        /* Например, можно уменьшить размер текста, изменить высоту шапки и т.д. */
+    }
 }
 
 footer {
